@@ -20,6 +20,7 @@ import com.jbk.product.sort.ProductNameComparator;
 @Repository
 public class ProductDaoImpl implements ProductDao {
 	
+	// logger is the basically class level
 	Logger logger=LoggerFactory.getLogger(ProductDaoImpl.class);
 
 	@Autowired
